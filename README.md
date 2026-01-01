@@ -89,3 +89,17 @@ for ch in text:
 # Print the result
 print(counts)
 ```
+# Largest Number
+```python
+numbers = [4, 7, 2, 9, 5]
+
+# Assume first number is largest
+largest = numbers[0]
+
+# Check every number in the list
+for num in numbers:
+    if num > largest:
+        largest = num
+
+print("Largest number is:", largest)
+```
