@@ -72,3 +72,20 @@ for ch in text:
             count = count + 1
     print(ch, count)
 ```
+```python
+# Original word
+text = "test"
+
+# Empty dictionary to store counts
+counts = {}
+
+# Loop through each letter
+for ch in text:
+    if ch in counts:
+        counts[ch] = counts[ch] + 1  # Increase count if already exists
+    else:
+        counts[ch] = 1  # First time, set count as 1
+
+# Print the result
+print(counts)
+```
