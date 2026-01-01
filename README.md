@@ -117,3 +117,16 @@ for num in numbers:
 
 print("Smallest number is:", smallest)
 ```
+# Add total numbers
+```python
+numbers = [4, 7, 2, 9, 5]
+
+# Start with total = 0
+total = 0
+
+# Add each number to total
+for num in numbers:
+    total = total + num
+
+print("Sum of all numbers is:", total)
+```
