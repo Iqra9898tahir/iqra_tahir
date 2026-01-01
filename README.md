@@ -26,3 +26,22 @@ for ch in text:
 
 # Print the reversed text
 print(reverse)
+```
+Palindrome Check
+```
+# Original word
+word = "madam"
+
+# Empty string to store reversed word
+reverse = ""
+
+# Loop through each character in the word
+for ch in word:
+    reverse = ch + reverse
+
+# Compare original word with reversed word
+if word == reverse:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
+```
