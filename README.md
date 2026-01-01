@@ -156,3 +156,20 @@ for num in numbers:
         print(num, "appears", count, "times")
         counted.append(num)
 ```
+numbers = [1, 2, 2, 3, 1, 2]
+
+# Empty dictionary to store counts
+```python
+counts = {}
+
+# Loop through each number
+for num in numbers:
+    if num in counts:
+        counts[num] = counts[num] + 1  # Increase count if already exists
+    else:
+        counts[num] = 1  # First time, set count as 1
+
+# Print the result
+for num, count in counts.items():
+    print(num, "appears", count, "times")
+```
