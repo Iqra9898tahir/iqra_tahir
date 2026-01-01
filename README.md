@@ -130,3 +130,14 @@ for num in numbers:
 
 print("Sum of all numbers is:", total)
 ```
+# Reverse a string
+```python
+text = "selenium"
+reversed_text = ""
+
+# Start from the last letter to the first
+for i in range(len(text)-1, -1, -1):
+    reversed_text = reversed_text + text[i]
+
+print("Reversed string is:", reversed_text)
+```
