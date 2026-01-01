@@ -141,3 +141,18 @@ for i in range(len(text)-1, -1, -1):
 
 print("Reversed string is:", reversed_text)
 ```
+# COUNT OCCURRENCES OF EACH ELEMENT IN A LIST
+```python
+numbers = [1, 2, 2, 3, 1, 2]
+
+counted = []
+
+for num in numbers:
+    if num not in counted:
+        count = 0
+        for n in numbers:
+            if n == num:
+                count = count + 1
+        print(num, "appears", count, "times")
+        counted.append(num)
+```
