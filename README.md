@@ -45,3 +45,19 @@ if word == reverse:
 else:
     print("Not Palindrome")
 ```
+# FIND DUPLICATE CHARACTERS
+```python
+text = "selenium"
+
+checked = ""
+duplicates = ""
+
+for ch in text:
+    if ch in checked:
+        if ch not in duplicates:
+            duplicates = duplicates + ch
+    else:
+        checked = checked + ch
+
+print(duplicates)
+```
