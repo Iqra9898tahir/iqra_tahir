@@ -61,3 +61,14 @@ for ch in text:
 
 print(duplicates)
 ```
+# Count each character
+```python
+text = "test"
+
+for ch in text:
+    count = 0
+    for c in text:
+        if ch == c:
+            count = count + 1
+    print(ch, count)
+```
