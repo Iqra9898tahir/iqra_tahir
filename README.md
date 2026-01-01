@@ -103,3 +103,17 @@ for num in numbers:
 
 print("Largest number is:", largest)
 ```
+# Find smallest no
+```python
+numbers = [4, 7, 2, 9, 5]
+
+# Assume first number is smallest
+smallest = numbers[0]
+
+# Check every number in the list
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print("Smallest number is:", smallest)
+```
