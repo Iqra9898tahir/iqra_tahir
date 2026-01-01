@@ -27,8 +27,8 @@ for ch in text:
 # Print the reversed text
 print(reverse)
 ```
-Palindrome Check
-```
+## Palindrome Check
+```python
 # Original word
 word = "madam"
 
